@@ -1,0 +1,14 @@
+provier_n = "aws"
+profile_type = "default"
+region_name = "eu-west-3"
+vpc_name = "main"
+security_group_name = "salah-sec-group"
+security_group_discrip = "Allow SSH inbound traffic"
+ingress_discription = "inbound rules from VPC"
+from_port_num = 22
+to_port_num = 22
+protocal_type = "tcp"
+cidr_block_security_port_allow = "0.0.0.0/0"
+ami_id = "ami-0960de83329d12f2f"
+instance_type_type = "t2.micro"
+instance_key_name = "SALAHDIN"
